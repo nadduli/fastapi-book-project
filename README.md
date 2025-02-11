@@ -144,3 +144,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 For support, please open an issue in the GitHub repository.
+
+## Setup
+1. Clone repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run: `uvicorn app.main:app --reload`
+
+## Deployment
+1. Configure Nginx reverse proxy
+2. Set up systemd service
+3. Add GitHub Secrets for SSH deployment
