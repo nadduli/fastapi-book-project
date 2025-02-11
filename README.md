@@ -148,3 +148,9 @@ For support, please open an issue in the GitHub repository.
 ## Deployment
 - CI runs tests on PRs
 - CD auto-deploys to production on merge to main
+=======
+## Setup
+1. Clone repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run: `uvicorn app.main:app --reload`
+
